@@ -6,6 +6,6 @@ public class Main {
     p.atacar();
     Gaspar gaspar = new Gaspar();
     gaspar.atacar();
-        System.out.println("Receba");
+        System.out.println("Recba");
     }
 }
