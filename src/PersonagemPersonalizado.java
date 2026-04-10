@@ -42,4 +42,9 @@ public class PersonagemPersonalizado extends Personagem{
     public void setDestreza(int destreza) {
         this.destreza = destreza;
     }
+
+    @Override
+    public void atacar() {
+        System.out.println(nome + " ataca e causa " + rolarDano() + " de dano!");
+    }
 }
